@@ -1,0 +1,173 @@
+/************* All Styles *************/
+* {
+	margin: 0;
+	padding: 0;
+	/*outline: red dotted 1px;*/
+	font-family: "Arial", sans-serif;
+}
+
+/************* Div ContainerStyles *************/
+
+div.container {
+	width: 970px;
+	min-height: 1000px;
+	margin: 0 auto;
+}
+
+/************* Header Class Styles *************/
+div.header {
+		width: 100%;
+		min-height: 100px;
+		background: linear-gradient(180deg, LightGrey, white 25%);
+	}
+
+	div.header img{
+		display: inline-block;
+		width: 29%;
+	}
+
+	div.header p{
+		display: inline-block;
+		vertical-align: top;
+		width: 70%;
+		text-align: right;
+		font-weight: bold;
+		margin-top: 10px;
+
+	}
+
+	div.header ul{
+		display: inline-block;
+		background-color: LightGrey;
+		border-radius: 5px;
+		border-top: grey solid 1px;
+		text-align: center;
+		width: 100%;
+		padding: 5px 0 5px 0;
+		background: linear-gradient(180deg, LightGrey, white 95%);
+
+	}
+
+	div.header li{
+		list-style-type: none;
+		display: inline-block;
+		border-right: DarkGrey solid 2px;
+		margin-right: 5px;
+		padding-right: 5px;
+		color: DarkGrey;
+
+	}
+
+/************* Main-section Class Styles *************/
+div.main-section {
+		width: 100%;
+		min-height: 800px;
+		background-color: black;
+	}
+
+	/************* photo-and-about div Styles *************/
+
+	div.photo-and-about {
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+		div.photo-and-about img{
+			display: inline-block;
+			width: 45%;
+			height: 395px;
+			vertical-align: top;
+			border: white solid 5px;
+			margin: 10px;
+		}
+
+		div.about-ppc-information {
+			display: inline-block;
+			width: 49%;
+			vertical-align: top;
+			background: linear-gradient(to right, #767674, #373737 75%);
+			margin: 10px;
+		}
+
+		div.about-ppc-information h1 {
+			background: linear-gradient(180deg, #ffdb66,#F9CD31 50%);
+			height: 37px;
+			font-size: 20px;
+			padding-top: 15px;
+
+		}
+
+		div.about-ppc-information h2 {
+			color: white;
+			margin: 15px;
+		}
+
+		div.about-ppc-information p {
+			color: white;
+			margin: 15px;
+		}
+
+	/************* Mid-section Class Styles *************/
+
+	div.mid-section img {
+		width: 20%;
+		display: inline-block;
+		margin: 0 10px 0 10px;
+
+	}
+
+	div.mid-section p {
+		color: #948F55;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 15px;
+		font-size: 8px;
+
+		
+	}
+
+	/************* bottom-section Class Styles *************/
+	div.bottom-section {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+
+	}
+
+		div.information-box {
+			display: inline-block;
+			width: 24%;
+			background: #FDF4E0;
+			vertical-align: top;
+			border-radius: 5px;
+			height: 301px;
+
+		}
+
+		div.information-box h1 {
+			background: linear-gradient(180deg, #ffdb66,#F9CD31 50%);
+			width: 100%;
+			height: 37px;
+			font-size: 18px;
+			text-align: left;
+			padding-top: 20px;
+		}
+
+		div.information-box img {
+			width: 100%;
+		}
+
+		div.information-box p {
+			width: 90%;
+			height: 55px;
+			font-size: 12px;
+			margin: 10px 5px 20px 5px;
+		}
+
+		div.information-box button {
+			width: 30%;
+			background: #FDC700;
+			border: black solid 3px;
+			margin-left: 50px;
+		}
